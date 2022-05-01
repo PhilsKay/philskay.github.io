@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: azure;
+}
+#page{
+    width: 360px;
+    margin: auto;
+}
+h2{
+    color: rgba(0, 0, 255, 0.7);
+}
+.len{
+    width: 350px;
+    height: 30px;
+    background: aliceblue;
+    border-style: none;
+    border-radius: 4px;
+
+}
+.pass{
+    margin-top: 5px;
+}
+.login{
+    margin-top: 10px;
+}
+.log{
+    background: rgba(0, 0, 255, 0.7);
+    width: 357px;
+    height: 37px;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1px;
+    
+}
+.forgot{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.7);
+}
+.line{
+    color: dimgray;
+    text-decoration:line-through;
+}
+button{
+    background-color: rgba(0, 128, 0, 0.9);
+    color: white;
+    padding: 1px;
+    width: 200px;
+    height: 37px;
+    border-style: none;
+    border-radius: 4px;
+}
+footer{
+    color: dimgray;
+}
+.inc{
+    margin-top: 400px;
+}
+
+@media screen and (max-width: 370px) {
+    #page{
+        width: 300px;
+        margin: auto;
+    }
+    .log{
+        width: 257px;
+    }
+    button{
+        width: 150px;
+        font-size: 00.7rem;
+    }
+    .len{
+        width: 290px;
+    }
+
+    body{
+        font-size: 0.7rem;
+    }
+    .inc{
+        margin-top: 250px;
+    }
+}
